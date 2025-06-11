@@ -1,10 +1,7 @@
 #!/bin/bash
-# Activate the virtual environment
-echo "Activating BLE receiver virtual environment..."
+# Activation script for BLE receiver
+
+echo "Activating virtual environment and starting BLE receiver..."
+cd /home/hp/Desktop/ble_rec
 source venv/bin/activate
-echo "Virtual environment activated!"
-echo "You can now run:"
-echo "  python3 scanner.py  - to scan for ESP32 devices"
-echo "  python3 main.py     - to start the BLE receiver"
-echo ""
-echo "To deactivate, type: deactivate"
+python3 main.py
