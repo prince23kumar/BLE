@@ -1,0 +1,4 @@
+bleak>=0.20.0
+matplotlib>=3.5.0
+numpy>=1.21.0
+asyncio-mqtt>=0.10.0
